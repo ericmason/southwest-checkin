@@ -48,10 +48,10 @@ gem 'mina-newrelic', :require => false
 gem 'dotenv-rails'
 
 # Skylight for performance monitoring
-gem 'skylight'
+#gem 'skylight'
 
 # New Relic application monitoring
-gem 'newrelic_rpm'
+#gem 'newrelic_rpm'
 
 # Pagination
 gem 'kaminari'
