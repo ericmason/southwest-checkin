@@ -20,6 +20,7 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 25
+  
 
 development:
   <<: *default
@@ -83,3 +84,4 @@ production:
   database: southwest_checkin_production
   username: <%= ENV['SOUTHWEST_CHECKIN_DATABASE_USER'] %>
   password: <%= ENV['SOUTHWEST_CHECKIN_DATABASE_PASSWORD'] %>
+  host: <%= ENV['SOUTHWEST_CHECKIN_DATABASE_HOST'] %>
